@@ -1,0 +1,100 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(32,106,253);
+    background: linear-gradient(0deg, rgba(32,106,253,1) 0%, rgba(82,209,217,1) 50%, rgba(105,255,201,1) 100%);
+    border: 3px solid #000000;
+}
+.caixa{
+	position: relative;
+	width: 40%;
+	margin: 0 auto;
+}
+.foto{
+    width: 40%;
+    border-radius: 7%;
+    border: 3px solid #505050;
+}
+nav{
+	position: absolute;
+	top: 110px;
+	right: 10px;
+}
+nav a{
+	color: #000000;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #c79b19;
+}
+.input-padrao{
+  display: block;
+  margin: 0 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color: rgb(0,0,0, 0.97);
+}
+.titulo-principal:hover{
+    color: #c79b19;
+}
+.texto-principal{
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+  background-color: rgb(215, 215, 250);
+  border: 3px solid #000000;
+  border-bottom: 0px;
+}
+.texto{
+    margin:0 0 0 1em;
+    
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+}
+.conteudo-lista{
+    width: 640px;
+    margin: 0 auto;
+}
+.qualidades{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+    background-color: rgb(215, 215, 250);
+}
+.itens{
+    line-height: 1.5;
+}
+.itens:before{
+  content: "🪙"
+}
+footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 0 0 40px;
+    font-size: 17px;
+}
+.gmail:before{
+    content: "📧"
+}
+.telefone:before{
+    content: "📞"
+}
+.github:before{
+    content: "😺"
+}
+.instagram:before{
+    content: "📷"
+}
