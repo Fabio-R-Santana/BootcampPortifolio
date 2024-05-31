@@ -12,11 +12,10 @@
   <body>
         <header>
             <div class="caixa">
-                <img src="Foto.jpeg" class="foto">
                 <nav>
                     <a>Fábio Rafael Santana</a>
                 </nav>
-            </div> 
+            </div>
         </header>
         
         <section class="texto-principal">
@@ -37,14 +36,15 @@
                 </ul>
             </div>
 
+
+
+
         </section>
 
         <footer>
             <p>&copy;Fábio Rafael Santana</p>
             <a class="gmail">fabiorafaelgg@gmail.com</a><br>
-            <a class="telefone">(45)99107-3944</a><br>
             <a class="github" href="https://github.com/Fabio-R-Santana">GitHub</a><br>
-            <a class="instagram" href="https://www.instagram.com/_fabio_rs/">instagram</a>
         </footer>
     </body>
 </html>
