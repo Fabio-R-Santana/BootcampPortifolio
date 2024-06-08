@@ -71,6 +71,49 @@ em{
 .itens:before{
   content: "🪙"
 }
+
+.contato {
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.tituloContato{
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #000000; 
+}
+.tituloContato:hover{
+    color: #c79b19;
+}
+
+.formContato{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelContato {
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #333333; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 95%;
+    background-color: #f9f9f9; 
+}
+
+
 footer{
     background-color: #000000;
     color: #fff;
@@ -80,15 +123,7 @@ footer{
     padding-top: 25px;
     font-size: 17px;
 }
-.gmail:before{
-    content: "📧"
-}
-.telefone:before{
-    content: "📞"
-}
+
 .github:before{
     content: "😺"
-}
-.instagram:before{
-    content: "📷"
 }

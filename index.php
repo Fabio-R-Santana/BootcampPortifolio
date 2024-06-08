@@ -36,14 +36,26 @@
                 </ul>
             </div>
 
+            <div class="contato">
+                <h1 class="tituloContato">Contato</h1>
+                <form action="#" method="post" class="formContato" >
+                    <label for="name" class="labelContato" >Nome</label>
+                    <input type="text" id="name" name="name" required>
 
+                    <label for="email" class="labelContato">Email</label>
+                    <input type="email" id="email" name="email" required>
 
+                    <label for="descricao" class="labelContato">Descrição</label>
+                    <textarea id="descricao" name="descricao" cols="70" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
 
         </section>
 
         <footer>
             <p>&copy;Fábio Rafael Santana</p>
-            <a class="gmail">fabiorafaelgg@gmail.com</a><br>
             <a class="github" href="https://github.com/Fabio-R-Santana">GitHub</a><br>
         </footer>
     </body>
