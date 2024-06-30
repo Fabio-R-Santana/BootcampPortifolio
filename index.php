@@ -47,7 +47,7 @@
                 // Adiciona o objeto ao container de objetos
                 const container = document.getElementById('objtContainer');
                 //forech para fazer o loop que passara pelo json
-                objetoProjetos.forEach(projeto =>{ 
+                objetoProjetos.forEach(projeto =>{
                 // Clona o template
                 const objetoClone = document.importNode(template.content, true);
 
@@ -115,9 +115,9 @@
     <template id="caixaTemplate">
         <div class="objeto">
             <img id="objetoImagem" alt="objetoImg" >
-            <h2 class="objetoNome"></h2>
+            <h2 class="objetoNome" cont> AAAA </h2>
             <p class="objetoDesc"></p>
-            <a class="objetoLink"></a>
+            <a class="objetoLink"> aaaaa </a>
         </div>
     </template>
 
