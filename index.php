@@ -67,13 +67,9 @@
     </script>
   </head>
   <body>
-    <header>
-        <div class="caixa">
-            <nav>
-                <a>Fábio Rafael Santana</a>
-            </nav>
-        </div>
-    </header>
+        <?php
+            include_once("header.phtml")
+        ?>
 
         <section class="texto-principal">
             <h2 class="titulo-principal"> Sobre Mim</h2>
@@ -128,9 +124,8 @@
     
     </section>
 
-        <footer>
-            <p>&copy;Fábio Rafael Santana</p>
-            <a class="github" href="https://github.com/Fabio-R-Santana">GitHub</a><br>
-        </footer>
+        <?php
+            include_once("footer.phtml")
+        ?>
     </body>
 </html>
