@@ -31,4 +31,4 @@
         http_response_code(400);
         echo "Deu erro: " . $e->getMessage();
     }
-?>
+
