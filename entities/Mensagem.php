@@ -15,27 +15,27 @@ class Mensagem{
     
     }
 
-    public function get_nameMensagem(){
+    public function getNameMensagem(){
         return $this->nameMensagem;
     }
 
-    public function get_emailMensagem(){
+    public function getEmailMensagem(){
         return $this->emailMensagem;
     }
 
-    public function get_valorMensagem(){
+    public function getValorMensagem(){
         return $this->valorMensagem;
     }
 
-    public function set_nameMensagem($nameMensagem){
+    public function setNameMensagem($nameMensagem){
         $this->nameMensagem = $nameMensagem;
     }
 
-    public function set_emailMensagem($emailMensagem){
+    public function setEmailMensagem($emailMensagem){
         $this->emailMensagem = $emailMensagem;
     }
 
-    public function set_valorMensagem($valorMensagem){
+    public function setValorMensagem($valorMensagem){
         $this->valorMensagem = $valorMensagem;
     }
     
