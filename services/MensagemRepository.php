@@ -11,7 +11,7 @@ class MensagemRepository{
     }
 
     public function enviarMensagem($objetoMensagem){
-        $objetoMensagem -> GetnameMensagem();
+        $objetoMensagem -> getNameMensagem();
     }
 
 }
