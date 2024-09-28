@@ -1,0 +1,14 @@
+{
+    "name": "fabio/portifolio",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "alpha",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Services\\": "services/",
+            "Entities\\": "entities/"
+        }
+    }
+    
+}
